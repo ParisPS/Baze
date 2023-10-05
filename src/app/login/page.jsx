@@ -15,7 +15,7 @@ export default function login(){
 
     function login(e){
         e.preventDefault()
-        if (email === "paris.perez.s@gmail.com" && senha === "Paris_2003"){
+        if (email === "paris.perez.s@gmail.com" && senha === "aaa"){
             push("/")
         }else{
             toast.error("Credenciais Invalidas",)
